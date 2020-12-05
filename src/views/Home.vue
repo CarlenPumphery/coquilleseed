@@ -6,7 +6,7 @@
           <img
             class="home-img img-top"
             alt="Coquille Flyby"
-            src="src/assets/cvsc-flyby.jpg"
+            src="../assets/cvsc-flyby.jpg"
           />
         </v-flex>
         <div class="home-content-wrap text-center">
@@ -20,8 +20,8 @@
             </h2>
           </div>
         </div>
-        <img class="home-img" alt="Home invitation" src="src/assets/home.jpeg" />
-      </v-layout>
+
+        <img class="home-img" src="../assets/home.jpeg"/></v-layout>
     </v-container>
   </div>
 </template>

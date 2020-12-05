@@ -19,7 +19,7 @@
           </div>
         </v-flex>
 
-        <img alt="Hero image" class="hero-image" src="src/assets/hero.jpeg" />
+        <img class="hero-image" src="../assets/hero.jpeg" height="2812" width="5000"/>
         <v-flex xs12 lg6> </v-flex>
       </v-layout>
     </v-container>
