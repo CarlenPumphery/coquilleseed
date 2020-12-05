@@ -1,10 +1,14 @@
 <template>
   <v-app>
-    <NavBar />
+    <div class="routing" v-if="this.$route.path !=='/'">
+      <NavBar />
+    </div>
     <v-content>
       <router-view></router-view>
     </v-content>
-    <Footer />
+    <div class="routing" v-if="this.$route.path !=='/'">
+      <Footer />
+    </div>
   </v-app>
 </template>
 
