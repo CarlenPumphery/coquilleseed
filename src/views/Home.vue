@@ -23,12 +23,12 @@
             </div>
             <img class="home-img" src="../assets/home.jpeg"/></v-layout>
 
-          <div class="articles text-center home-main-heading">
-            <h1>Articles</h1>
+          <div class="articles text-center">
+            <h1 class="home-main-heading">Articles</h1>
           </div>
 
-          <div class="gallery text-center home-main-heading">
-            <h1>Gallery</h1>
+          <div class="gallery text-center">
+            <h1 class="home-main-heading">Gallery</h1>
             <v-row>
               <v-col
                   v-for="n in 9"
@@ -59,17 +59,17 @@
             </v-row>
           </div>
 
-          <div class="videos text-center home-main-heading">
-            <h1>Videos</h1>
+          <div class="videos text-center">
+            <h1 class="home-main-heading">Videos</h1>
 
           </div>
 
-          <div class="links text-center home-main-heading">
-            <h1>Links</h1>
+          <div class="links text-center">
+            <h1 class="home-main-heading">Links</h1>
           </div>
 
-          <div class="about text-center home-main-heading">
-            <h1>About</h1>
+          <div class="about text-center">
+            <h1 class="home-main-heading">About</h1>
           </div>
 
         </v-container>
