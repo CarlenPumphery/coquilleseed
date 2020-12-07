@@ -60,6 +60,7 @@
             </v-row>
           </div>
           <img class="home-img" src="../assets/gallery.jpeg">
+
           <div class="videos text-center">
             <h1 class="home-main-heading">Videos</h1>
             <v-row
@@ -97,8 +98,8 @@
                     </v-row>
                   </template>
             </v-row>
-
           </div>
+          <img class="home-img" src="../assets/videos.jpeg">
 
           <div class="links text-center">
             <h1 class="home-main-heading">Links</h1>
