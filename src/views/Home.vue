@@ -1,28 +1,33 @@
 <template>
-  <div class="home">
-    <v-container class="my-5">
-      <v-layout row>
-        <v-flex xs12 justify-center>
-          <img
-            class="home-img img-top"
-            alt="Coquille Flyby"
-            src="../assets/cvsc-flyby.jpg"
-          />
-        </v-flex>
-        <div class="home-content-wrap text-center">
-          <h1 class="home-main-heading">
-            Welcome to the Coquille Valley Seed Community!
-          </h1>
-          <div class="home-text text-center">
-            <h2 class="home-mission">
-              "Our mission is to inspire and equip our community to grow and
-              share seeds and plants."
-            </h2>
-          </div>
-        </div>
+  <div class="main">
+    <div class="home">
+        <v-container class="my-5">
+          <v-layout row>
+            <v-flex xs12 justify-center>
+              <img
+                class="home-img img-top"
+                alt="Coquille Flyby"
+                src="../assets/cvsc-flyby.jpg"
+              />
+            </v-flex>
+            <div class="home-content-wrap text-center">
+              <h1 class="home-main-heading">
+               Welcome to the Coquille Valley Seed Community!
+             </h1>
+             <div class="home-text text-center">
+                <h2 class="home-mission">
+                  "Our mission is to inspire and equip our community to grow and
+                 share seeds and plants."
+               </h2>
+             </div>
+            </div>
+            <img class="home-img" src="../assets/home.jpeg"/></v-layout>
+        </v-container>
+     </div>
 
-        <img class="home-img" src="../assets/home.jpeg"/></v-layout>
-    </v-container>
+    <div class="videos">
+
+    </div>
   </div>
 </template>
 
