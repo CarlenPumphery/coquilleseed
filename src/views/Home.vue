@@ -22,12 +22,60 @@
              </div>
             </div>
             <img class="home-img" src="../assets/home.jpeg"/></v-layout>
+
+          <div class="articles text-center home-main-heading">
+            <h1>Articles</h1>
+          </div>
+
+          <div class="gallery text-center home-main-heading">
+            <h1>Gallery</h1>
+            <v-row>
+              <v-col
+                  v-for="n in 9"
+                  :key="n"
+                  class="d-flex child-flex"
+                  cols="4"
+              >
+                <v-img
+                    :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
+                    :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+                    aspect-ratio="1"
+                    class="grey lighten-2"
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                        class="fill-height ma-0"
+                        align="center"
+                        justify="center"
+                    >
+                      <v-progress-circular
+                          indeterminate
+                          color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+              </v-col>
+            </v-row>
+          </div>
+
+          <div class="videos text-center home-main-heading">
+            <h1>Videos</h1>
+
+          </div>
+
+          <div class="links text-center home-main-heading">
+            <h1>Links</h1>
+          </div>
+
+          <div class="about text-center home-main-heading">
+            <h1>About</h1>
+          </div>
+
         </v-container>
      </div>
 
-    <div class="videos">
 
-    </div>
   </div>
 </template>
 
