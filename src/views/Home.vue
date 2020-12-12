@@ -111,16 +111,15 @@
           </div>
           <img class="home-img" src="../assets/videos.jpeg">
 
-          <img class="home-img" src="../assets/links.jpeg">
-
           <div class="about text-center">
             <h1 class="home-main-heading">About</h1>
             <h2 class="home-mission">
               "Our mission is to inspire and equip our community to grow and share seeds and plants to preserve a diverse gene pool for local food security."
             </h2>
+            <img class="home-img" src="../assets/about.jpeg">
           </div>
-          <img class="home-img" src="../assets/about.jpeg">
 
+          <img class="home-img" src="../assets/links.jpeg">
           <div class="links text-center">
             <h1 class="home-main-heading">Links</h1>
           </div>
