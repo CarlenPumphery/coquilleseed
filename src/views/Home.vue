@@ -119,9 +119,9 @@
             <img class="home-img" src="../assets/about.jpeg">
           </div>
 
-          <img class="home-img" src="../assets/links.jpeg">
           <div class="links text-center">
             <h1 class="home-main-heading">Links</h1>
+            <img class="home-img" src="../assets/links.jpeg">
           </div>
         </v-container>
      </div>
