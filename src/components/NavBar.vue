@@ -3,7 +3,7 @@
     <v-app-bar color="deep-purple accent-4" dark elevate-on-scroll>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Coquille Valley SC</v-toolbar-title>
+      <v-toolbar-title>CV Seed Community</v-toolbar-title>
 
       <v-spacer></v-spacer>
 

@@ -17,7 +17,7 @@
              <div class="home-text text-center">
                 <h2 class="home-mission">
                   "Our mission is to inspire and equip our community to grow and
-                 share seeds and plants."
+                 share seeds and plants..."
                </h2>
              </div>
             </div>
@@ -118,6 +118,9 @@
 
           <div class="about text-center">
             <h1 class="home-main-heading">About</h1>
+            <h2 class="home-mission">
+              "Our mission is to inspire and equip our community to grow and share seeds and plants to preserve a diverse gene pool for local food security."
+            </h2>
           </div>
           <img class="home-img" src="../assets/about.jpeg">
         </v-container>
