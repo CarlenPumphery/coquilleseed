@@ -25,11 +25,18 @@
 
           <div class="articles text-center">
             <h1 class="home-main-heading">Articles</h1>
+            <h2 class="home-mission">
+              Inspiring and equipping our community via the written word.
+            </h2>
+            <img class="article-img" src="../assets/articles.jpeg">
           </div>
-          <img class="home-img" src="../assets/articles.jpeg">
+
 
           <div class="gallery text-center">
             <h1 class="home-main-heading">Gallery</h1>
+            <h2 class="home-mission">
+              Inspiring and equipping our community via artwork and photos.
+            </h2>
             <v-row>
               <v-col
                   v-for="n in 9"
@@ -63,6 +70,9 @@
 
           <div class="videos text-center">
             <h1 class="home-main-heading">Videos</h1>
+            <h2 class="home-mission">
+              Inspiring and equipping our community via video recordings.
+            </h2>
             <v-row
                 justify="space-between">
                 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F167227751777454%2F&show_text=false&width=560" width="560"
@@ -130,6 +140,10 @@ export default {
 }
 .home-img {
   width: 100%;
+  display: block;
+}
+.article-img {
+  width: 60%;
   display: block;
 }
 .home-main-heading {
