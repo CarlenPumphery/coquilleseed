@@ -111,9 +111,6 @@
           </div>
           <img class="home-img" src="../assets/videos.jpeg">
 
-          <div class="links text-center">
-            <h1 class="home-main-heading">Links</h1>
-          </div>
           <img class="home-img" src="../assets/links.jpeg">
 
           <div class="about text-center">
@@ -123,6 +120,10 @@
             </h2>
           </div>
           <img class="home-img" src="../assets/about.jpeg">
+
+          <div class="links text-center">
+            <h1 class="home-main-heading">Links</h1>
+          </div>
         </v-container>
      </div>
 
