@@ -7,7 +7,7 @@
         >
         <v-btn v-for="icon in icons" :key="icon" class="ml-10" dark icon
                :href="`https://www.facebook.com/groups/713176172791524`"
-               target="_blank">
+               >
           <v-icon size="36px">
             {{ icon }}
           </v-icon>
