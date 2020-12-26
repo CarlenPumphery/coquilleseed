@@ -5,9 +5,6 @@
         <strong class="subheading"
           >Get planting with us on social networks!</strong
         >
-
-        <v-spacer></v-spacer>
-
         <v-btn v-for="icon in icons" :key="icon" class="ml-10" dark icon>
           <v-icon size="36px">
             {{ icon }}
