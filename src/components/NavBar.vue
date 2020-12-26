@@ -1,9 +1,14 @@
 <template>
   <div>
     <v-app-bar color="deep-purple accent-4" dark elevate-on-scroll>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
       <v-toolbar-title>CV Seed Community</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon to="/home">
+        <v-text>home</v-text>
+      </v-btn>
 
       <v-spacer></v-spacer>
 
@@ -16,6 +21,9 @@
       <v-btn icon to="/signup">
         <v-text>signup</v-text>
       </v-btn>
+
+      <v-spacer></v-spacer>
+
     </v-app-bar>
   </div>
 </template>
