@@ -8,8 +8,8 @@
 
         <v-spacer></v-spacer>
 
-        <v-btn v-for="icon in icons" :key="icon" class="mx-4" dark icon>
-          <v-icon size="24px">
+        <v-btn v-for="icon in icons" :key="icon" class="ml-10" dark icon>
+          <v-icon size="36px">
             {{ icon }}
           </v-icon>
         </v-btn>
@@ -25,6 +25,10 @@
 
 <script>
 export default {
-  name: "Footer"
-};
+  data: () => ({
+    icons: [
+      'mdi-facebook'
+    ],
+  }),
+}
 </script>

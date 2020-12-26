@@ -81,6 +81,32 @@
             <h2 class="home-mission">
               "Our mission is to inspire and equip our community to grow and share seeds and plants to preserve a diverse gene pool for local food security."
             </h2>
+              <v-carousel
+                  cycle
+                  height="800"
+                  hide-delimiter-background
+                  show-arrows-on-hover
+              >
+                <v-carousel-item
+                    v-for="(slide, i) in slides"
+                    :key="i"
+                >
+                  <v-sheet
+                      :color="colors[i]"
+                      height="100%"
+                  >
+                    <v-row
+                        class="fill-height"
+                        align="center"
+                        justify="center"
+                    >
+                      <div class="display-3">
+                        {{ slide }} Board Member
+                      </div>
+                    </v-row>
+                  </v-sheet>
+                </v-carousel-item>
+              </v-carousel>
             <img class="home-img" src="../assets/about.jpeg">
           </div>
 
@@ -133,10 +159,30 @@
 </template>
 
 <script>
-export default {
-  name: "Home",
-  components: {}
-};
+  export default {
+  data () {
+  return {
+  colors: [
+  'indigo',
+  'warning',
+  'pink darken-2',
+  'red lighten-1',
+  'deep-purple accent-4',
+      'green',
+      'blue'
+  ],
+  slides: [
+  'First',
+  'Second',
+  'Third',
+  'Fourth',
+  'Fifth',
+    'Sixth',
+      'Seventh',
+  ],
+}
+},
+}
 </script>
 
 <style scoped lang="scss">
