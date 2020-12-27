@@ -55,6 +55,6 @@ export default {
 .hero-btn {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1vh;
+  font-size: 1.5vh;
 }
 </style>

@@ -6,23 +6,13 @@
           >Get planting with us on social networks!</strong
         >
 
-        <p class="member-blurb">Not a Facebook group member yet? Check us out here:</p>
-        <v-btn v-for="icon in icons" :key="icon" class="ml-10" dark icon
-               :href="`https://www.facebook.com/search/top?q=coquille%20valley%20seed%20community`"
-        >
-          <v-icon size="36px">
-            {{ icon }}
-          </v-icon>
-        </v-btn>
-
-
-        <p class="member-blurb">Members Facebook link:</p>
-        <v-btn v-for="icon in icons" :key="icon" class="ml-10" light icon
+        <v-btn v-for="icon in icons" :key="icon" class="ml-10 display" light icon
                :href="`https://www.facebook.com/groups/713176172791524`"
                >
           <v-icon size="36px">
             {{ icon }}
           </v-icon>
+          <p>Members Page</p>
         </v-btn>
       </v-card-title>
 
@@ -43,9 +33,3 @@ export default {
   }),
 }
 </script>
-
-<style scoped lang="scss">
-.member-blurb {
-  padding-left: 2%;
-}
-</style>

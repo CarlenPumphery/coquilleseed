@@ -163,8 +163,13 @@
                 dark
                 href="https://www.southcoastgardenstarters.com"
             >South Coast Garden Starters</v-btn>
-
-
+            <v-btn
+                class="links"
+                x-large
+                color="success"
+                dark
+                href="`https://www.facebook.com/search/top?q=coquille%20valley%20seed%20community`"
+            >Public Facebook Page</v-btn>
             <img class="home-img" src="../assets/links.jpeg">
           </div>
 
@@ -236,6 +241,7 @@
 }
 },
 }
+
 </script>
 
 <style scoped lang="scss">
