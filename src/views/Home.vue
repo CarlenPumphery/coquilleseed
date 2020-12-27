@@ -112,6 +112,59 @@
 
           <div class="links text-center">
             <h1 class="home-main-heading">Links</h1>
+          </div>
+          <div class="my-2">
+            <v-btn
+                class="links"
+                x-large
+                color="primary"
+                dark
+                href="https://coquillecommunitygarden.org/"
+            >Coquille Community Garden</v-btn>
+            <v-btn
+                class="links"
+                x-large
+                color="success"
+                dark
+                href="https://coosheadfood.coop/"
+            >Coos Head Food Co-Op</v-btn>
+            <v-btn
+                class="links"
+                x-large
+                color="primary"
+                dark
+                href="https://www.adaptiveseeds.com/"
+            >Adaptive Seeds</v-btn>
+            <v-btn
+                class="links"
+                x-large
+                color="success"
+                dark
+                href="https://www.seedsavers.org/"
+            >Seed Savers</v-btn>
+            <v-btn
+                class="links"
+                x-large
+                color="primary"
+                dark
+                href="https://www.rareseeds.com/"
+            >Rare Seeds</v-btn>
+            <v-btn
+                class="links"
+                x-large
+                color="success"
+                dark
+                href="https://myrtleglenfarm.com/"
+            >Myrtle Glen Farm</v-btn>
+            <v-btn
+                class="links"
+                x-large
+                color="primary"
+                dark
+                href="https://www.southcoastgardenstarters.com"
+            >South Coast Garden Starters</v-btn>
+
+
             <img class="home-img" src="../assets/links.jpeg">
           </div>
 
@@ -212,5 +265,10 @@
 }
 iframe {
   padding-bottom: 2%;
+}
+.links {
+  font-size: x-large;
+  display: block;
+  margin-bottom: 3%;
 }
 </style>

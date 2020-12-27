@@ -14,7 +14,7 @@
               x-large
               rounded
               class="deep-purple white--text hero-btn"
-              >Inspire and Equip your community...Share seeds.</v-btn
+              >Inspire and equip your community...Share seeds.</v-btn
             >
           </div>
         </v-flex>
@@ -53,11 +53,8 @@ export default {
   padding-top: 10%;
 }
 .hero-btn {
-  padding: 20px;
-}
-.hero-link {
-  text-decoration: none;
-  color: white;
-  font-size: x-large;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1vh;
 }
 </style>
