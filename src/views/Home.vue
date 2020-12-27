@@ -273,7 +273,7 @@ iframe {
   padding-bottom: 2%;
 }
 .links {
-  font-size: x-large;
+  font-size: 2vh;
   display: block;
   margin-bottom: 3%;
 }

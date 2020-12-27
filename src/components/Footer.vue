@@ -12,7 +12,6 @@
           <v-icon size="36px">
             {{ icon }}
           </v-icon>
-          <p>Members Page</p>
         </v-btn>
       </v-card-title>
 
