@@ -12,18 +12,6 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon to="/signin">
-        <v-text>login</v-text>
-      </v-btn>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon to="/signup">
-        <v-text>signup</v-text>
-      </v-btn>
-
-      <v-spacer></v-spacer>
-
     </v-app-bar>
   </div>
 </template>
