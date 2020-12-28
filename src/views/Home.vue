@@ -218,33 +218,34 @@
             <h2 class="home-mission">
               Inspiring and equipping our community via artwork and photos.
             </h2>
-            <v-row>
-              <v-col
-                  v-for="n in 9"
-                  :key="n"
-                  class="d-flex child-flex"
-                  cols="4"
-              >
-                <v-img
-                    src="@/assets/image/4.jpg"
-                    aspect-ratio="1"
-                    class="grey lighten-2"
+              <v-row>
+                <v-col
+                    v-for="n in 9"
+                    :key="n"
+                    class="d-flex child-flex"
+                    cols="4"
                 >
-                  <template v-slot:placeholder>
-                    <v-row
-                        class="fill-height ma-0"
-                        align="center"
-                        justify="center"
-                    >
-                      <v-progress-circular
-                          indeterminate
-                          color="grey lighten-5"
-                      ></v-progress-circular>
-                    </v-row>
-                  </template>
-                </v-img>
-              </v-col>
-            </v-row>
+                  <v-img
+                      :src="`https://picsum.photos/500/300?image=${n * 10 + 3}`"
+                      :lazy-src="`https://picsum.photos/10/6?image=${n * 10 + 10}`"
+                      aspect-ratio="1"
+                      class="grey lighten-2"
+                  >
+                    <template v-slot:placeholder>
+                      <v-row
+                          class="fill-height ma-0"
+                          align="center"
+                          justify="center"
+                      >
+                        <v-progress-circular
+                            indeterminate
+                            color="grey lighten-5"
+                        ></v-progress-circular>
+                      </v-row>
+                    </template>
+                  </v-img>
+                </v-col>
+              </v-row>
           </div>
           <img class="home-img" src="../assets/gallery.jpeg">
         </v-container>
@@ -258,27 +259,26 @@
   export default {
   data () {
   return {
-  colors: [
-  'indigo',
-  'warning',
-  'pink darken-2',
-  'red lighten-1',
-  'deep-purple accent-4',
+    colors: [
+      'indigo',
+      'warning',
+      'pink darken-2',
+      'red lighten-1',
+      'deep-purple accent-4',
       'green',
       'blue'
-  ],
-  slides: [
-  'First',
-  'Second',
-  'Third',
-  'Fourth',
-  'Fifth',
-    'Sixth',
+    ],
+    slides: [
+      'First',
+      'Second',
+      'Third',
+      'Fourth',
+      'Fifth',
+      'Sixth',
       'Seventh',
-  ],
-    images: require('@/assets/image/4.jpg')
-    }
-}
+    ],
+  }
+  }
 }
 
 </script>
