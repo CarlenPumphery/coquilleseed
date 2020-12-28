@@ -38,43 +38,49 @@
             <h2 class="home-mission">
               Inspiring and equipping our community via video recordings.
             </h2>
-            <v-row
-                justify="space-between">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F167227751777454%2F&show_text=false&width=560" width="560"
+            <v-container>
+              <v-row align="center" justify="center">
+                  <v-col md="6">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F167227751777454%2F&show_text=false&width=560" width="560"
                         height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                    web-share"></iframe>
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F284604039647857%2F&show_text=false&width=560" width="560"
+                        web-share"></iframe>
+                  </v-col>
+
+                <v-col md="6">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F284604039647857%2F&show_text=false&width=560" width="560"
                         height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                    web-share"></iframe>
-                <iframe width="560" height="314" src="https://www.youtube.com/embed/fqgtSPkUGKQ" frameborder="0"
+                        web-share"></iframe>
+                  </v-col>
+
+                    <v-col md="6">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F293652548408612%2F&show_text=false&width=560" width="560"
+                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
+                        web-share" ></iframe>
+                    </v-col>
+
+                    <v-col md="6">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffindyozen%2Fvideos%2F3030239960343674%2F&show_text=false&width=560" width="560"
+                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
+                        web-share"></iframe>
+                      </v-col>
+
+                      <v-col md="6">
+                    <iframe width="560" height="314" src="https://www.youtube.com/embed/fqgtSPkUGKQ" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                    picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="314" src="https://www.youtube.com/embed/X-ZXPFvsCXI" frameborder="0"
+                        picture-in-picture" allowfullscreen></iframe>
+                        </v-col>
+
+                        <v-col md="6">
+                    <iframe width="560" height="314" src="https://www.youtube.com/embed/X-ZXPFvsCXI" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                    picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F293652548408612%2F&show_text=false&width=560" width="560"
-                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                    web-share" ></iframe>
-                <iframe
-                    src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffindyozen%2Fvideos%2F3030239960343674%2F&show_text=false&width=560" width="560"
-                    height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                    allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                    web-share"></iframe>
-                  <template v-slot:placeholder>
-                    <v-row
-                        class="fill-height ma-0"
-                        align="center"
-                        justify="center"
-                    >
-                      <v-progress-circular
-                          indeterminate
-                          color="grey lighten-5"
-                      ></v-progress-circular>
-                    </v-row>
-                  </template>
-            </v-row>
-          </div>
+                        picture-in-picture" allowfullscreen></iframe>
+                </v-col>
+                >
+              </v-row>
+            </v-container>
           <img class="home-img" src="../assets/videos.jpeg">
+          </div>
 
           <div class="about text-center">
             <h1 class="home-main-heading">About</h1>
@@ -113,65 +119,98 @@
           <div class="links text-center">
             <h1 class="home-main-heading">Links</h1>
           </div>
-          <div class="my-2">
-            <v-btn
-                class="links"
-                x-large
-                color="primary"
-                dark
-                href="https://coquillecommunitygarden.org/"
-            >Coquille Community Garden</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="success"
-                dark
-                href="https://coosheadfood.coop/"
-            >Coos Head Food Co-Op</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="primary"
-                dark
-                href="https://www.adaptiveseeds.com/"
-            >Adaptive Seeds</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="success"
-                dark
-                href="https://www.seedsavers.org/"
-            >Seed Savers</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="primary"
-                dark
-                href="https://www.rareseeds.com/"
-            >Rare Seeds</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="success"
-                dark
-                href="https://myrtleglenfarm.com/"
-            >Myrtle Glen Farm</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="primary"
-                dark
-                href="https://www.southcoastgardenstarters.com"
-            >South Coast Garden Starters</v-btn>
-            <v-btn
-                class="links"
-                x-large
-                color="success"
-                dark
-                href="`https://www.facebook.com/search/top?q=coquille%20valley%20seed%20community`"
-            >Public Facebook Page</v-btn>
-            <img class="home-img" src="../assets/links.jpeg">
-          </div>
+
+          <v-container>
+            <v-row>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="primary"
+                    dark
+                    href="https://coquillecommunitygarden.org/"
+                    target="_blank"
+                >Coquille Community Garden</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="success"
+                    dark
+                    href="https://coosheadfood.coop/"
+                    target="_blank"
+                >Coos Head Food Co-Op</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="primary"
+                    dark
+                    href="https://www.adaptiveseeds.com/"
+                    target="_blank"
+                >Adaptive Seeds</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="success"
+                    dark
+                    href="https://www.seedsavers.org/"
+                    target="_blank"
+                >Seed Savers Exchange</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="primary"
+                    dark
+                    href="https://www.rareseeds.com/"
+                    target="_blank"
+                >Baker Creek Heirloom Seeds</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="success"
+                    dark
+                    href="https://myrtleglenfarm.com/"
+                    target="_blank"
+                >Myrtle Glen Farm</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="primary"
+                    dark
+                    href="https://www.southcoastgardenstarters.com"
+                    target="_blank"
+                >South Coast Garden Starters</v-btn>
+              </v-col>
+              <v-col md="6">
+                <v-btn
+                    class="links"
+                    x-large
+                    color="success"
+                    dark
+                    href="https://www.facebook.com/search/top?q=coquille%20valley%20seed%20community"
+                    target="_blank"
+                >Coquille Valley Seed Community FB</v-btn>
+              </v-col>
+            >
+
+            </v-row>
+          </v-container>
+
+          <img class="home-img" src="../assets/links.jpeg">
+
+
+
 
 
           <div class="gallery text-center">
@@ -187,8 +226,7 @@
                   cols="4"
               >
                 <v-img
-                    :src="`https://picsum.photos/500/300?image=${n * 10 + 3}`"
-                    :lazy-src="`https://picsum.photos/10/6?image=${n * 10- + 3}`"
+                    src="@/assets/image/4.jpg"
                     aspect-ratio="1"
                     class="grey lighten-2"
                 >
@@ -238,8 +276,9 @@
     'Sixth',
       'Seventh',
   ],
+    images: require('@/assets/image/4.jpg')
+    }
 }
-},
 }
 
 </script>
@@ -270,10 +309,12 @@
   padding-bottom: 5%;
 }
 iframe {
-  padding-bottom: 2%;
+  display:block;
+  margin: 0;
+  padding: 0;
 }
 .links {
-  font-size: 2vh;
+  font-size: 1vh;
   display: block;
   margin-bottom: 3%;
 }
