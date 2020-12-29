@@ -121,13 +121,14 @@
           </div>
 
           <v-container>
-            <v-row>
+            <v-row class="links">
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="primary"
                     dark
+                    block
+                    x-large
                     href="https://coquillecommunitygarden.org/"
                     target="_blank"
                 >Coquille Community Garden</v-btn>
@@ -135,9 +136,10 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="success"
                     dark
+                    block
+                    x-large
                     href="https://coosheadfood.coop/"
                     target="_blank"
                 >Coos Head Food Co-Op</v-btn>
@@ -145,9 +147,10 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="primary"
                     dark
+                    block
+                    x-large
                     href="https://www.adaptiveseeds.com/"
                     target="_blank"
                 >Adaptive Seeds</v-btn>
@@ -155,9 +158,10 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="success"
                     dark
+                    block
+                    x-large
                     href="https://www.seedsavers.org/"
                     target="_blank"
                 >Seed Savers Exchange</v-btn>
@@ -165,9 +169,10 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="primary"
                     dark
+                    block
+                    x-large
                     href="https://www.rareseeds.com/"
                     target="_blank"
                 >Baker Creek Heirloom Seeds</v-btn>
@@ -175,9 +180,10 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="success"
                     dark
+                    block
+                    x-large
                     href="https://myrtleglenfarm.com/"
                     target="_blank"
                 >Myrtle Glen Farm</v-btn>
@@ -185,9 +191,10 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="primary"
                     dark
+                    block
+                    x-large
                     href="https://www.southcoastgardenstarters.com"
                     target="_blank"
                 >South Coast Garden Starters</v-btn>
@@ -195,15 +202,14 @@
               <v-col md="6">
                 <v-btn
                     class="links"
-                    x-large
                     color="success"
                     dark
+                    block
+                    x-large
                     href="https://www.facebook.com/search/top?q=coquille%20valley%20seed%20community"
                     target="_blank"
                 >Coquille Valley Seed Community FB</v-btn>
               </v-col>
-            >
-
             </v-row>
           </v-container>
 
@@ -311,11 +317,12 @@
 iframe {
   display:block;
   margin: 0;
-  padding: 0;
+  padding-bottom: -20px;
+  padding-top: -20px;
 }
 .links {
-  font-size: 1vh;
-  display: block;
-  margin-bottom: 3%;
+  padding: 0px;
+  font-size: 1.75vh;
+  text-align: center;
 }
 </style>
