@@ -41,42 +41,40 @@
             <v-container>
               <v-row align="center" justify="center">
                   <v-col md="6">
-                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F167227751777454%2F&show_text=false&width=560" width="560"
-                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                        web-share"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3851415994897932&width=500&show_text=true&appId=2442171006088508&height=347"
+                            height="347" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;
+                            clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                   </v-col>
 
                 <v-col md="6">
-                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F284604039647857%2F&show_text=false&width=560" width="560"
-                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                        web-share"></iframe>
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3826736394032559&width=500&show_text=true&appId=2442171006088508&height=347"
+                          height="347" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;
+                          clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                   </v-col>
 
                     <v-col md="6">
-                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fseedsaversx%2Fvideos%2F293652548408612%2F&show_text=false&width=560" width="560"
-                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                        web-share" ></iframe>
+                      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3452146411491561&width=500&show_text=true&appId=2442171006088508&height=347"
+                              height="347" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;
+                              clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </v-col>
 
                     <v-col md="6">
-                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffindyozen%2Fvideos%2F3030239960343674%2F&show_text=false&width=560" width="560"
-                        height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
-                        web-share"></iframe>
+                      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F2930570983649109&width=500&show_text=true&appId=2442171006088508&height=398"
+                              height="398" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;
+                              clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                       </v-col>
 
                       <v-col md="6">
-                    <iframe width="560" height="314" src="https://www.youtube.com/embed/fqgtSPkUGKQ" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                        picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3701088599930673&width=500&show_text=true&appId=2442171006088508&height=507"
+                                height="507" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </v-col>
 
                         <v-col md="6">
-                    <iframe width="560" height="314" src="https://www.youtube.com/embed/X-ZXPFvsCXI" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                        picture-in-picture" allowfullscreen></iframe>
+                          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3518232248216310&width=500&show_text=true&appId=2442171006088508&height=506"
+                                  style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                  allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </v-col>
-                >
               </v-row>
             </v-container>
           <img class="home-img" src="../assets/videos.jpeg">

@@ -11,18 +11,6 @@ const routes = [
     component: Hero
   },
   {
-    path: "/signup",
-    name: "Signup",
-    component: () =>
-      import(/* webpackChunkName: "signup" */ "../views/Signup.vue")
-  },
-  {
-    path: "/signin",
-    name: "Signin",
-    component: () =>
-      import(/* webpackChunkName: "signin" */ "../views/Signin.vue")
-  },
-  {
     path: "/home",
     name: "Home",
     component: () => import(/* webpackChunkName: "home" */ "../views/Home.vue")
