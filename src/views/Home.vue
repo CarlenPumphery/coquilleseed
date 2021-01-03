@@ -80,6 +80,8 @@
           <img class="home-img" src="../assets/videos.jpeg">
           </div>
 
+
+
           <div class="about text-center">
             <h1 class="home-main-heading">About</h1>
             <h2 class="home-mission">
@@ -215,8 +217,6 @@
 
 
 
-
-
           <div class="gallery text-center">
             <h1 class="home-main-heading">Gallery</h1>
             <h2 class="home-mission">
@@ -254,10 +254,10 @@
           <img class="home-img" src="../assets/gallery.jpeg">
         </v-container>
      </div>
-
-
   </div>
 </template>
+
+
 
 <script>
   export default {
@@ -284,8 +284,9 @@
   }
   }
 }
-
 </script>
+
+
 
 <style scoped lang="scss">
 .img-top {

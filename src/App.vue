@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
+import NavBar from "../../lpdoula/lpdoula/src/components/NavBar";
+import Footer from "../../lpdoula/lpdoula/src/components/Footer";
 export default {
   name: "App",
   components: {
