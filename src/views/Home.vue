@@ -23,13 +23,7 @@
             </div>
             <img class="home-img" src="../assets/home.jpeg"/></v-layout>
 
-          <div class="articles text-center">
-            <h1 class="home-main-heading">Articles</h1>
-            <h2 class="home-mission">
-              Inspiring and equipping our community via the written word.
-            </h2>
-            <img class="article-img" src="../assets/articles.jpeg">
-          </div>
+
 
 
 
@@ -38,8 +32,19 @@
             <h2 class="home-mission">
               Inspiring and equipping our community via video recordings.
             </h2>
-            <v-container>
+            <v-container class="video-wrap">
               <v-row align="center" justify="center">
+                <v-col md="6">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3701088599930673&width=500&show_text=true&appId=2442171006088508&height=507"
+                          height="507" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </v-col>
+
+                <v-col md="6">
+                  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3518232248216310&width=500&show_text=true&appId=2442171006088508&height=506"
+                          height="506" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </v-col>
                   <v-col md="6">
                     <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3851415994897932&width=500&show_text=true&appId=2442171006088508&height=347"
                             height="347" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;
@@ -63,58 +68,49 @@
                               height="398" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;
                               clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                       </v-col>
-
-                      <v-col md="6">
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3701088599930673&width=500&show_text=true&appId=2442171006088508&height=507"
-                                height="507" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </v-col>
-
-                        <v-col md="6">
-                          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3518232248216310&width=500&show_text=true&appId=2442171006088508&height=506"
-                                  height="506" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                                  allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                </v-col>
               </v-row>
             </v-container>
-          <img class="home-img" src="../assets/videos.jpeg">
           </div>
+          <img class="home-img" src="../assets/videos.jpeg">
+
+          <div class="gallery text-center">
+            <h1 class="home-main-heading">Gallery</h1>
+            <h2 class="home-mission">
+              Inspiring and equipping our community via artwork and photos.
+            </h2>
+            <div class="gallery-wrap">
+              <div class="gallery-content">
+                <img class="gallery-content" src="../assets/basket-sm.jpg" alt="basket">
+              </div>
+              <div class="gallery-content">
+                <img class="gallery-content" src="../assets/sunchokes-sm.jpg" alt="sunchokes">
+              </div>
+              <div class="gallery-content">
+                <img class="gallery-content" src="../assets/apple-sm.jpg" alt="apple">
+              </div>
+              <div class="gallery-content">
+                <img class="gallery-content" src="../assets/peas-sm.jpg" alt="peas">
+              </div>
+              <div class="gallery-content">
+                <img class="gallery-content" src="../assets/goats-sm.jpg" alt="goats">
+              </div>
+                <div class="gallery-content">
+                  <img class="gallery-content" src="../assets/legends-sm.jpg" alt="legends">
+                </div>
+            </div>
+          </div>
+          <img class="home-img" src="../assets/gallery.jpeg">
 
 
 
           <div class="about text-center">
             <h1 class="home-main-heading">About</h1>
-            <h2 class="home-mission">
+            <h2 class="about-text">
               "Our mission is to inspire and equip our community to grow and share seeds and plants to preserve a diverse gene pool for local food security."
             </h2>
-              <v-carousel
-                  cycle
-                  height="800"
-                  hide-delimiter-background
-                  show-arrows-on-hover
-              >
-                <v-carousel-item
-                    v-for="(slide, i) in slides"
-                    :key="i"
-                >
-                  <v-sheet
-                      :color="colors[i]"
-                      height="100%"
-                  >
-                    <v-row
-                        class="fill-height"
-                        align="center"
-                        justify="center"
-                    >
-                      <div class="display-3">
-                        {{ slide }} Board Member
-                      </div>
-                    </v-row>
-                  </v-sheet>
-                </v-carousel-item>
-              </v-carousel>
             <img class="home-img" src="../assets/about.jpeg">
           </div>
+
 
           <div class="links text-center">
             <h1 class="home-main-heading">Links</h1>
@@ -215,43 +211,22 @@
 
           <img class="home-img" src="../assets/links.jpeg">
 
-
-
-          <div class="gallery text-center">
-            <h1 class="home-main-heading">Gallery</h1>
-            <h2 class="home-mission">
-              Inspiring and equipping our community via artwork and photos.
-            </h2>
-              <v-row>
-                <v-col
-                    v-for="n in 9"
-                    :key="n"
-                    class="d-flex child-flex"
-                    cols="4"
-                >
-                  <v-img
-                      :src="`https://picsum.photos/500/300?image=${n * 10 + 3}`"
-                      :lazy-src="`https://picsum.photos/10/6?image=${n * 10 + 10}`"
-                      aspect-ratio="1"
-                      class="grey lighten-2"
-                  >
-                    <template v-slot:placeholder>
-                      <v-row
-                          class="fill-height ma-0"
-                          align="center"
-                          justify="center"
-                      >
-                        <v-progress-circular
-                            indeterminate
-                            color="grey lighten-5"
-                        ></v-progress-circular>
-                      </v-row>
-                    </template>
-                  </v-img>
-                </v-col>
-              </v-row>
+          <div class="home-main-heading text-center">
+            <h1 class="about-text">
+              Support the mission of Coquille Valley Seed Community below!
+            </h1>
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="LSGJ4EES6X486" />
+            <input type="image"
+                   src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                   border="0" width="200px" name="submit" title="PayPal - The safer, easier way to pay
+                   online!" alt="Donate with PayPal button" />
+            <img alt="" border="0"
+                 src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>
           </div>
-          <img class="home-img" src="../assets/gallery.jpeg">
+
+
         </v-container>
      </div>
   </div>
@@ -296,22 +271,26 @@
   width: 100%;
   display: block;
 }
-.article-img {
-  width: 60%;
-  display: block;
-}
 .home-main-heading {
   font-family: "palatino", serif;
   font-size: 4vh;
   color: #79a604;
+  padding-top: 5%;
 }
 .home-mission {
   font-style: oblique;
   font-size: 2.25vh;
 }
+.about-text {
+  font-style: oblique;
+  font-size: 4.25vh;
+}
 .home-text {
   font-size: 1vh;
   padding-bottom: 5%;
+}
+.video-wrap {
+  padding-left: 20%;
 }
 iframe {
   display:block;
@@ -323,5 +302,14 @@ iframe {
   padding: 0px;
   font-size: 1.75vh;
   text-align: center;
+}
+.gallery-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-content {
+  width: 385px;
+  length: 385px;;
 }
 </style>
