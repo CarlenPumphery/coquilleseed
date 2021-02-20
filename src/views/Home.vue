@@ -11,7 +11,7 @@
               />
             </v-flex>
             <div class="home-content-wrap text-center">
-              <h1 class="home-main-heading">
+              <h1 class="home-main-heading text-center">
                Welcome to the Coquille Valley Seed Community!
              </h1>
              <div class="home-text text-center">
@@ -19,9 +19,11 @@
                   "Our mission is to inspire and equip our community to grow and
                  share seeds and plants..."
                </h2>
+               <img class="home-img" src="../assets/home.jpeg"/>
              </div>
             </div>
-            <img class="home-img" src="../assets/home.jpeg"/></v-layout>
+          </v-layout>
+
 
 
 
@@ -279,11 +281,11 @@
 }
 .home-mission {
   font-style: oblique;
-  font-size: 2.25vh;
+  font-size: 2em;
 }
 .about-text {
   font-style: oblique;
-  font-size: 4.25vh;
+  font-size: 2em;
 }
 .home-text {
   font-size: 1vh;
