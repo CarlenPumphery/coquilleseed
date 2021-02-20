@@ -19,9 +19,9 @@ export default {
 }
 h1 {
   color: #79a604;
-  font-size: 3vh;
+  font-size: 1em;
 }
 p {
-  font-size: 1vh;
+  font-size: .70em;
 }
 </style>
