@@ -10,19 +10,18 @@
                 src="../assets/cvsc-flyby.jpg"
               />
             </v-flex>
-            <div class="home-content-wrap text-center">
-              <h1 class="home-main-heading text-center">
+          </v-layout>
+            <div class="text-center">
+              <h1 class="home-main-heading">
                Welcome to the Coquille Valley Seed Community!
              </h1>
-             <div class="home-text text-center">
                 <h2 class="home-mission">
                   "Our mission is to inspire and equip our community to grow and
                  share seeds and plants..."
                </h2>
                <img class="home-img" src="../assets/home.jpeg"/>
              </div>
-            </div>
-          </v-layout>
+
 
 
 
@@ -213,8 +212,8 @@
 
           <img class="home-img" src="../assets/links.jpeg">
 
-          <div class="home-main-heading text-center">
-            <h1 class="about-text">
+          <div class="bout-text text-center">
+            <h1 class="home-main-heading">
               Support the mission of Coquille Valley Seed Community below!
             </h1>
           <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -275,7 +274,7 @@
 }
 .home-main-heading {
   font-family: "palatino", serif;
-  font-size: 4vh;
+  font-size: 4em;
   color: #79a604;
   padding-top: 5%;
 }
@@ -288,7 +287,7 @@
   font-size: 2em;
 }
 .home-text {
-  font-size: 1vh;
+  font-size: 2em;
   padding-bottom: 5%;
 }
 .video-wrap {
@@ -301,9 +300,13 @@ iframe {
   padding-top: -20px;
 }
 .links {
-  padding: 0px;
-  font-size: 1.75vh;
+  font-size: 1em;
   text-align: center;
+}
+@media (min-width: 1920px) {
+  .links {
+    font-size: 1.25em;
+  }
 }
 .gallery-wrap {
   display: flex;

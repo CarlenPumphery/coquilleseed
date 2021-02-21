@@ -40,7 +40,7 @@ export default {
 }
 .hero-title {
   font-family: "palatino", serif;
-  font-size: 5vh;
+  font-size: 4em;
   padding-top: 1%;
   color: #79a604;
   display: block;
@@ -55,6 +55,16 @@ export default {
 .hero-btn {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1.5vh;
+  font-size: .75em;
+}
+@media (min-width: 1920px) {
+  .hero-btn {
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 2560px) {
+  .hero-btn {
+    font-size: 2em;
+  }
 }
 </style>
