@@ -104,11 +104,314 @@
 
 
 
+
           <div class="about text-center">
             <h1 class="home-main-heading">About</h1>
             <h2 class="about-text">
               "Our mission is to inspire and equip our community to grow and share seeds and plants to preserve a diverse gene pool for local food security."
             </h2>
+
+            <div class="about-wrap">
+              <v-card
+                  class="mx-auto about-content"
+                  max-width="344"
+              >
+                <v-img
+                    src="../assets/avatar.jpeg"
+                    height="200px"
+                ></v-img>
+
+                <v-card-title>
+                  Grant Wartnik
+                </v-card-title>
+
+                <v-card-actions>
+                  <v-btn
+                      color="deep-purple lighten-2"
+                      text
+                  >
+                    Meet Grant!
+                  </v-btn>
+
+                  <v-spacer></v-spacer>
+
+                  <v-btn
+                      icon
+                      @click="show = !show"
+                  >
+                    <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                  </v-btn>
+                </v-card-actions>
+
+                <v-expand-transition>
+                  <div v-show="show">
+                    <v-divider></v-divider>
+
+                    <v-card-text>
+                      Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+
+
+            <v-card
+                class="mx-auto about-content"
+                max-width="344"
+            >
+              <v-img
+                  src="../assets/avatar.jpeg"
+                  height="200px"
+              ></v-img>
+
+              <v-card-title>
+                Board Member 2
+              </v-card-title>
+
+              <v-card-actions>
+                <v-btn
+                    color="deep-purple lighten-2"
+                    text
+                >
+                  Meet Board Member 2!
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                    icon
+                    @click="show = !show"
+                >
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+
+
+            <v-card
+                class="mx-auto about-content"
+                max-width="344"
+            >
+              <v-img
+                  src="../assets/avatar.jpeg"
+                  height="200px"
+              ></v-img>
+
+              <v-card-title>
+                Board Member 3
+              </v-card-title>
+
+              <v-card-actions>
+                <v-btn
+                    color="deep-purple lighten-2"
+                    text
+                >
+                  Meet Board Member 3!
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                    icon
+                    @click="show = !show"
+                >
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+
+
+            <v-card
+                class="mx-auto about-content"
+                max-width="344"
+            >
+              <v-img
+                  src="../assets/avatar.jpeg"
+                  height="200px"
+              ></v-img>
+
+              <v-card-title>
+                Board Member 4
+              </v-card-title>
+
+              <v-card-actions>
+                <v-btn
+                    color="deep-purple lighten-2"
+                    text
+                >
+                  Meet Board Member 4!
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                    icon
+                    @click="show = !show"
+                >
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+
+
+            <v-card
+                class="mx-auto about-content"
+                max-width="344"
+            >
+              <v-img
+                  src="../assets/avatar.jpeg"
+                  height="200px"
+              ></v-img>
+
+              <v-card-title>
+                Board Member 5
+              </v-card-title>
+
+              <v-card-actions>
+                <v-btn
+                    color="deep-purple lighten-2"
+                    text
+                >
+                  Meet Board Member 5!
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                    icon
+                    @click="show = !show"
+                >
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+
+
+            <v-card
+                class="mx-auto about-content"
+                max-width="344"
+            >
+              <v-img
+                  src="../assets/avatar.jpeg"
+                  height="200px"
+              ></v-img>
+
+              <v-card-title>
+                Board Member 6
+              </v-card-title>
+
+              <v-card-actions>
+                <v-btn
+                    color="deep-purple lighten-2"
+                    text
+                >
+                  Board Member 6!
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                    icon
+                    @click="show = !show"
+                >
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+
+
+            <v-card
+                class="mx-auto about-content"
+                max-width="344"
+            >
+              <v-img
+                  src="../assets/avatar.jpeg"
+                  height="200px"
+              ></v-img>
+
+              <v-card-title>
+                Board Member 7
+              </v-card-title>
+
+              <v-card-actions>
+                <v-btn
+                    text
+                >
+                  Meet Board Member 7!
+                </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                    icon
+                    @click="show = !show"
+                >
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    Info of Avatar avian aviator radiator radiation nation some text here it was the 3rd of September yadda yadda blah blech bleach chlorophyll what am I typing today was a good day Kobe flashmob wringer piano thingamajig.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+            </div>
+
             <img class="home-img" src="../assets/about.jpeg">
           </div>
 
@@ -239,24 +542,7 @@
   export default {
   data () {
   return {
-    colors: [
-      'indigo',
-      'warning',
-      'pink darken-2',
-      'red lighten-1',
-      'deep-purple accent-4',
-      'green',
-      'blue'
-    ],
-    slides: [
-      'First',
-      'Second',
-      'Third',
-      'Fourth',
-      'Fifth',
-      'Sixth',
-      'Seventh',
-    ],
+    show: false,
   }
   }
 }
@@ -316,5 +602,15 @@ iframe {
 .gallery-content {
   width: 385px;
   length: 385px;;
+}
+
+.about-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  margin-top: 1%;
+
 }
 </style>
