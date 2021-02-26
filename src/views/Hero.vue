@@ -36,8 +36,8 @@ export default {
 
 <style scoped lang="scss">
 .hero-image {
-  width: 150%;
-  height: 150%;
+  width: 100%;
+  height: 100%;
 }
 .hero-title {
   font-family: "palatino", serif;
