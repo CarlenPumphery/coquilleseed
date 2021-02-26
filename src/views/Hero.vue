@@ -18,9 +18,10 @@
             >
           </div>
         </v-flex>
+        <div class="hero">
 
+        </div>
         <img class="hero-image" src="../assets/hero.jpeg" height="2812" width="5000"/>
-        <v-flex xs12 lg6> </v-flex>
       </v-layout>
     </v-container>
   </div>

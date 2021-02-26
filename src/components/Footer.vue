@@ -3,7 +3,7 @@
     <v-card class="flex" flat tile>
       <v-card-title class="green">
         <strong class="subheading"
-          >Members, get planting with us on social networks!</strong
+          >Members, come plant with us <br>on social networks!</strong
         >
 
         <v-btn v-for="icon in icons" :key="icon" class="ml-10 display" light icon

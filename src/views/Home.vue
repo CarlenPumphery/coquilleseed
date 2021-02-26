@@ -10,7 +10,7 @@
                 src="../assets/cvsc-flyby.jpg"
               />
             </v-flex>
-          </v-layout>
+
             <div class="text-center">
               <h1 class="home-main-heading">
                Welcome to the Coquille Valley Seed Community!
@@ -20,12 +20,8 @@
                  share seeds and plants..."
                </h2>
                <img class="home-img" src="../assets/home.jpeg"/>
-             </div>
-
-
-
-
-
+            </div>
+          </v-layout>
 
 
           <div class="videos text-center">
@@ -552,6 +548,9 @@
 
 
 <style scoped lang="scss">
+html, body {
+  overflow-x: hidden;
+}
 .img-top {
   padding-top: 2%;
 }
