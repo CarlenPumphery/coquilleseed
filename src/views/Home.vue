@@ -29,8 +29,8 @@
             <h2 class="home-mission">
               Inspiring and equipping our community via video recordings.
             </h2>
-            <v-container class="video-wrap">
-              <v-row align="center" justify="center">
+            <v-container class="video-wrap" align="center" justify="center">
+              <v-row >
                 <v-col md="6">
                   <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoquilleValleySeedCommunity%2Fposts%2F3701088599930673&width=500&show_text=true&appId=2442171006088508&height=507"
                           height="507" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
@@ -577,11 +577,11 @@ html, body {
   padding-bottom: 5%;
 }
 .video-wrap {
-  padding-left: 20%;
+display: block;
 }
 iframe {
   display:block;
-  margin: 0;
+  margin: auto;
   padding-bottom: -20px;
   padding-top: -20px;
 }
