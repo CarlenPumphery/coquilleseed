@@ -23,6 +23,11 @@
             </div>
           </v-layout>
 
+          <div class="announcements text-center">
+            <h1 class="home-main-heading">Announcements</h1>
+          </div>
+          <img class="home-img" src="../assets/announcements.jpeg">
+
 
           <div class="videos text-center">
             <h1 class="home-main-heading">Videos</h1>
@@ -556,6 +561,10 @@ html, body {
 }
 .home-img {
   width: 100%;
+  display: block;
+}
+.sm-home-img {
+  width: 75%;
   display: block;
 }
 .home-main-heading {
